@@ -17,5 +17,7 @@ yum install gcc perl make kernel-headers kernel-devel elfutils-libelf-devel -y
     --add-repo \
     https://download.docker.com/linux/centos/docker-ce.repo
 ```
-
- 
+## EPEL RELEASE Configure 9 
+```  
+ dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm -y
+ ```
