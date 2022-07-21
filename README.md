@@ -30,18 +30,20 @@ mount /dev/cdrom  /dvd/
 echo "mount /dev/cdrom  /dvd/" >> /etc/rc.d/rc.local
 chmod +x /etc/rc.d/rc.local
 echo "[AppStream]"
-echo "[AppStream]" >> /etc/yum.repos.d/dvd.repo
-echo "name=AppStream" >> /etc/yum.repos.d/dvd.repo
-echo "baseurl=file:///dvd/AppStream/" >> /etc/yum.repos.d/dvd.repo
-echo "gpgcheck=0" >> /etc/yum.repos.d/dvd.repo
-echo "[BaseOS]" >> /etc/yum.repos.d/baseos.repo
-echo "name=BaseOS" >> /etc/yum.repos.d/baseos.repo
-echo "baseurl=file:///dvd/BaseOS/" >> /etc/yum.repos.d/baseos.repo
+echo "[AppStream]" >> /etc/yum.repos.d/AppStream.repo
+echo "name=AppStream" >> /etc/yum.repos.d/AppStream.repo
+echo "baseurl=file:///dvd/AppStream/" >> /etc/yum.repos.d/AppStream.repo
+echo "gpgcheck=0" >> /etc/yum.repos.d/AppStream.repo
+echo "[BaseOS]"
+echo "[BaseOS]" >> /etc/yum.repos.d/BaseOS.repo
+echo "name=BaseOS" >> /etc/yum.repos.d/BaseOS.repo
+echo "baseurl=file:///dvd/BaseOS/" >> /etc/yum.repos.d/BaseOS.repo
 echo "gpgcheck=0" >> /etc/yum.repos.d/baseos.repo
 nmcli con show
 ifconfig
 dnf install net-tools -y
 ifconfig
 yum repolist
+dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm -y 
 
 ```
