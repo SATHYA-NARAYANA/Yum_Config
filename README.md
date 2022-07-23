@@ -47,3 +47,7 @@ yum repolist
 dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm -y 
 
 ```
+# Virtual Box Guest add on location
+```
+/run/media/root/VBox_GAs_6.1.36
+```
