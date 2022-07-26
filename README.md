@@ -51,3 +51,7 @@ dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.r
 ```
 /run/media/root/VBox_GAs_6.1.36
 ```
+# Configure Local Lab for Ansible Exam 
+```
+ dnf install vsftpd -y
+```
