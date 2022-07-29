@@ -8,7 +8,7 @@ dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.r
 
 ## Virtual Box Dependencies 
 ```  
-yum install gcc perl make kernel-headers kernel-devel elfutils-libelf-devel -y 
+dnf install gcc perl make kernel-headers kernel-devel elfutils-libelf-devel -y 
 ```
 ## Configure Yum for Docker  
 ```  
