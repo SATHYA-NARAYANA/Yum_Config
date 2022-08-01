@@ -54,4 +54,5 @@ dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.r
 # Configure Local Lab for Ansible Exam 
 ```
  dnf install vsftpd -y
+ dnf install ftp -y
 ```
