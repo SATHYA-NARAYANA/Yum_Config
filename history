@@ -1,0 +1,44 @@
+    1  pwd
+    2  vi test.txt
+    3  ifconfig
+    4  clear
+    5  ls
+    6  cat test.txt
+    7  vi /etc/yum.repos.d/my.repo
+    8  yum repolist
+    9  sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+   10  yum install dnf
+   11  clear
+   12  yum search ansible
+   13  dnf install gcc perl make kernel-headers kernel-devel elfutils-libelf-devel -y
+   14  init 6
+   15  ifconfig
+   16  clear
+   17  ls
+   18  vim ll
+   19  ls
+   20  rm ll
+   21  ls
+   22  rpm -ivh ansible-2.9.27-1.el8ae.noarch.rpm
+   23  yum whatprovides python3-cryptography
+   24  rpm -ivh sshpass-1.09-4.el8.x86_64.rpm
+   25  yum install python3-cryptography python3-jinja2 -y
+   26  clear
+   27  rpm -ivh ansible-2.9.27-1.el8ae.noarch.rpm
+   28  yum install python3-cryptography
+   29  clear
+   30  rpm -ivh
+   31  rpm -ivh ansible-2.9.27-1.el8ae.noarch.rpm
+   32  pip3 install python3-cryptography
+   33  pip3 install python3-cryptography --user
+   34  yum whatprovidespython3-cryptography
+   35  yum whatprovides python3-cryptography
+   36  dnf install python3-cryptography-3.2.1-5.el8.x86_64
+   37  yum install python3-cryptography python3-jinja2
+   38  rpm -ivh ansible-2.9.27-1.el8ae.noarch.rpm
+   39  ansible --version
+   40  yum install vim
+   41  python --version
+   42  python3 --version
+   43  clear
+   44  history
