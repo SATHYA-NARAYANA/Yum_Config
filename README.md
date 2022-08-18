@@ -38,7 +38,7 @@ echo "[BaseOS]"
 echo "[BaseOS]" >> /etc/yum.repos.d/BaseOS.repo
 echo "name=BaseOS" >> /etc/yum.repos.d/BaseOS.repo
 echo "baseurl=file:///dvd/BaseOS/" >> /etc/yum.repos.d/BaseOS.repo
-echo "gpgcheck=0" >> /etc/yum.repos.d/baseos.repo
+echo "gpgcheck=0" >> /etc/yum.repos.d/BaseOS.repo
 nmcli con show
 ifconfig
 dnf install net-tools -y
