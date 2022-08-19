@@ -55,4 +55,14 @@ dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.r
 ```
  dnf install vsftpd -y
  dnf install ftp -y
+ ls -l /dev/cdrom
+ mkdir /var/ftp/dvd
+ mount /dev/cdrom /var/ftp/dvd
+ ls /var/ftp/dvd/
+ vim /etc/vsftpd/vsftpd.conf
+ systemctl start vsftpd
+ systemctl enable vsftpd
+ systemctl status firewalld
+ setenforce 0
+ curl ftp://192.168.0.101
 ```
