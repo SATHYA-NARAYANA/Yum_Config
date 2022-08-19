@@ -60,6 +60,7 @@ dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.r
  mount /dev/cdrom /var/ftp/dvd
  ls /var/ftp/dvd/
  vim /etc/vsftpd/vsftpd.conf
+ #anonymous_enable=YES
  systemctl start vsftpd
  systemctl enable vsftpd
  systemctl status firewalld
